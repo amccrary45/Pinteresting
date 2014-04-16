@@ -6,8 +6,19 @@
 
 $body-bg: 		#40d47e;
 $navbar-default-bg: #7f8c8d;
-$navbar-default-link-color: white;
+$navbar-default-link-color: Black;
+$font-family-sans-serif: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $jumbotron-color: #34495e;
 $brand-primary: #e74c3c;
 $jumbotron-bg: #bdc3c7;
+$navbar-height: 30px;
+
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
