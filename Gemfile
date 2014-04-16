@@ -23,15 +23,7 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',    
 
-group :development,  :test do |
-	|gem 'sqlite3'
-end
-
-group :production do
-	gem 'pg'
-	gem 'rails_12factor'
-	
-end      
+   
 group: :doc 
 gem 'bootstrap-sass'
 # Use ActiveModel has_secure_password
@@ -48,3 +40,13 @@ gem 'bootstrap-sass'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
+
+group :development,  :test do |
+	|gem 'sqlite3'
+end
+
+group :production do
+	gem 'pg'
+	gem 'rails_12factor'
+	
+end   
